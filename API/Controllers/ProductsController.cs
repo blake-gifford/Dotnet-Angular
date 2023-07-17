@@ -59,5 +59,10 @@ namespace API.Controllers
         {
             return Ok(await _productTypeRepo.ListAllAsync());
         }
+        // [HttpPost("new/brand")]
+        // public async Task<ActionResult<Product>> NewProduct()
+        // {
+        //     return Ok();
+        // }
     }
 }
